@@ -2070,8 +2070,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_events_events_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/events/events.component */ "./resources/src/components/events/events.component.jsx");
 /* harmony import */ var _layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout/nav/nav.component */ "./resources/src/layout/nav/nav.component.jsx");
 /* harmony import */ var _layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layout/banner/banner.component */ "./resources/src/layout/banner/banner.component.jsx");
-/* harmony import */ var _components_Counter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Counter */ "./resources/src/components/Counter.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -2079,8 +2078,7 @@ __webpack_require__.r(__webpack_exports__);
 // rutas
 /* import { Routes } from 'routes'; */
 
-// componentes 
-
+// componentes
 
 
 
@@ -2092,10 +2090,10 @@ __webpack_require__.r(__webpack_exports__);
 var rootElement = document.querySelector('#root');
 if (!rootElement) throw new Error('No fue posible renderizar la App.');
 var root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(rootElement);
-root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
-  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
+  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
     className: "container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Counter__WEBPACK_IMPORTED_MODULE_7__["default"], {})]
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {})
   })]
 }));
 
@@ -2112,64 +2110,6 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* Configuración para el uso de Axios (de ser necesario) */
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-/***/ }),
-
-/***/ "./resources/src/components/Counter.jsx":
-/*!**********************************************!*\
-  !*** ./resources/src/components/Counter.jsx ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Counter)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-function Counter() {
-  // Set the initial count state to zero, 0
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
-    _useState2 = _slicedToArray(_useState, 2),
-    count = _useState2[0],
-    setCount = _useState2[1];
-
-  // Create handleIncrement event handler
-  var handleIncrement = function handleIncrement() {
-    setCount(function (prevCount) {
-      return prevCount + 1;
-    });
-  };
-
-  // Create handleDecrement event handler
-  var handleDecrement = function handleDecrement() {
-    setCount(function (prevCount) {
-      return prevCount - 1;
-    });
-  };
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-      onClick: handleDecrement,
-      children: "-"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("span", {
-      children: [" ", count, " "]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-      onClick: handleIncrement,
-      children: "+"
-    })]
-  });
-}
 
 /***/ }),
 
@@ -2191,10 +2131,53 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 function Events() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+  var events = [{
+    event: "EVENT 1",
+    source: "/assets/events/event1.jpg",
+    isActive: true
+  }, {
+    event: "EVENT 2",
+    source: "/assets/events/event2.jpg",
+    isActive: true
+  }, {
+    event: "EVENT 3",
+    source: "/assets/events/event3.jpg",
+    isActive: true
+  }, {
+    event: "EVENT 4",
+    source: "/assets/events/event4.jpg",
+    isActive: true
+  }];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
     className: "events",
-    children: "Events"
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+      src: "/assets/events/Grupo 54.svg",
+      alt: "Logo Newman club"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "title",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+        children: "Events"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "menu-events",
+      children: events.map(function (item, index) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "event-menu-items-item",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: item.source,
+            alt: item.event
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            children: item.event
+          })]
+        }, index);
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+      children: "MORE EVENTS"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+      children: "Let's have fun, join us in our events. Find out more here."
+    })]
   });
 }
 
@@ -2247,10 +2230,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Banner() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "banner",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-      children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis molestiae amet fuga nulla delectus perspiciatis quos dolor, maiores quia. Eum aperiam eaque, voluptates quidem molestiae error! Necessitatibus perspiciatis omnis maiores?"
-    })
+    className: "banner"
   });
 }
 
@@ -2368,7 +2348,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.menu-events {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 16pt;\n  margin: 0;\n}\n\n.menu-events img {\n  width: 398pt;\n  height: 511pt;\n  border-radius: 22pt;\n}\n\n.title {\n  width: 322pt;\n  height: 84pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 30pt;\n}\n\n.title p {\n  font-size: 60pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.event img {\n  width: 55pt;\n  height: 30pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2416,7 +2396,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".banner {\n  background-color: black;\n  width: 100%;\n  height: calc(100vh - 80pt);\n  margin-top: -15pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".banner {\n  background-color: #ff7e54;\n  width: 100%;\n  height: calc(100vh - 80pt);\n  margin-top: -15pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2440,7 +2420,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 120px;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 24px;\n}\n\n.nav-menu-items-item a {\n  color: #ffffff;\n  font-size: 14px;\n  font-weight: 500;\n  text-decoration: none;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n}\n\n.nav-menu-links button {\n  margin-right: 20px;\n  background-color: #5ad3df;\n  border-radius: 16px;\n  border: 0;\n  height: 41px;\n  width: auto;\n  font-weight: 600;\n  font-family: \"Helvetica\", sans-serif;\n  white-space: nowrap;\n  min-width: 210px;\n  font-size: 14px;\n}\n\n.nav-menu-links-content-img {\n  width: 26px;\n  height: 26px;\n  margin-left: 10px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 10px;\n  background-color: #ff7e54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 100%;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 120pt;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 24pt;\n}\n\n.nav-menu-items-item a {\n  color: #ffffff;\n  font-size: 14pt;\n  font-weight: 500;\n  text-decoration: none;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n}\n\n.nav-menu-links button {\n  margin-right: 20pt;\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  height: 41pt;\n  width: auto;\n  font-weight: 600;\n  font-family: \"Helvetica\", sans-serif;\n  white-space: nowrap;\n  min-width: 210pt;\n  font-size: 14pt;\n}\n\n.nav-menu-links-content-img {\n  width: 26pt;\n  height: 26pt;\n  margin-left: 10pt;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 10pt;\n  background-color: #ff7e54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 100%;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

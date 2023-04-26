@@ -6,12 +6,12 @@ import ReactDOM from 'react-dom/client';
 // rutas
 /* import { Routes } from 'routes'; */
 
-// componentes 
+// componentes
 import TheCrow from './components/the-crew/the-crew.component'
 import Events from './components/events/events.component'
 import Navbar from './layout/nav/nav.component'
 import Banner from './layout/banner/banner.component'
-import Counter from './components/Counter'
+
 
 // configuracion de la aplicación
 const rootElement = document.querySelector('#root');
@@ -27,20 +27,20 @@ root.render(
     <Navbar />
 
     <div className="container">
-      
+    
       {/* Banner - imagenes principales */}
-      <Banner />
+      {/* <Banner /> */}
 
-      {/* Contenido para TheCrow */}
-      <TheCrow />
-      
       {/* Contenido para Events */}
       <Events />
 
-      {/* ELIMINAR SOLO SON DE PRUEBAS */}
-      <br />
-      <br />
-      <Counter />
+
+
+      {/* Contenido para TheCrow */}
+      {/* <TheCrow /> */}
+
+
+
 
     </div>
 

@@ -1,1 +1,44 @@
-.events{}
+@import "../../styles/variables.scss";
+
+.events{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.menu-events {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16pt;
+    margin: 0;
+}
+
+.menu-events img {
+    width: 398pt;
+    height: 511pt;
+    border-radius: 22pt;
+}
+
+.title {
+    width: 322pt;
+    height: 84pt;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30pt;
+}
+
+.title p {
+    font-size: 60pt;
+    font-family: $redhat;
+    text-align: center;
+    font-weight: bold;
+    color: $blue;
+}
+
+.event img {
+    width: 55pt;
+    height: 30pt;
+}

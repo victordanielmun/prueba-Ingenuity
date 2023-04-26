@@ -1,5 +1,7 @@
+@import "../../styles/variables.scss";
+
 .banner{
-  background-color: black;
+  background-color: $orange;
   width: 100%;
   height: calc(100vh - 80pt);
   margin-top: -15pt;
