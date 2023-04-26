@@ -17,13 +17,16 @@ export default function Events() {
       <div className="menu-events">
       {events.map((item, index) => (
         <div className="event-menu-items-item" key={index}>
-          <img src={item.source} alt={item.event} />
+          <img className="logo-events" src={item.source} alt={item.event} />
+          <div className="item-event-title">
           <p>{item.event}</p>
+          </div>
         </div>
       ))}
       </div>
-      <button>MORE EVENTS</button>
+      <button className="button-more-events">MORE EVENTS</button>
       <span>Let's have fun, join us in our events. Find out more here.</span>
+      <div className="background-image"/>
     </div>
   );
 }

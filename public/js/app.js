@@ -2166,17 +2166,24 @@ function Events() {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "event-menu-items-item",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            className: "logo-events",
             src: item.source,
             alt: item.event
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            children: item.event
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "item-event-title",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+              children: item.event
+            })
           })]
         }, index);
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+      className: "button-more-events",
       children: "MORE EVENTS"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
       children: "Let's have fun, join us in our events. Find out more here."
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "background-image"
     })]
   });
 }
@@ -2348,7 +2355,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.menu-events {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 16pt;\n  margin: 0;\n}\n\n.menu-events img {\n  width: 398pt;\n  height: 511pt;\n  border-radius: 22pt;\n}\n\n.title {\n  width: 322pt;\n  height: 84pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 30pt;\n}\n\n.title p {\n  font-size: 60pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.event img {\n  width: 55pt;\n  height: 30pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 80pt;\n  position: relative;\n  z-index: 1;\n}\n\n.logo-events {\n  width: 83pt;\n  height: 44pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 16pt;\n  margin: 0;\n}\n\n.menu-events img {\n  width: 398pt;\n  height: 511pt;\n  border-radius: 22pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 347pt;\n  height: 130pt;\n  margin: 0 25pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 229pt;\n  font-size: 45pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 322pt;\n  height: 84pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 30pt;\n}\n\n.title p {\n  font-size: 60pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 16pt;\n  white-space: nowrap;\n  width: 210pt;\n  height: 41pt;\n  padding: 11pt auto;\n  margin: 36pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 23pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  top: 25%;\n  bottom: 0;\n  left: 50%;\n  width: 1000pt;\n  height: 800pt;\n  margin: 0 25pt;\n  background-color: #e3e3e3;\n  position: absolute;\n  z-index: -1;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
