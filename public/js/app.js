@@ -2284,23 +2284,29 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function NavBar() {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
       title: "HOME",
+      slug: "#home",
       isActive: true
     }, {
       title: "THE CREW",
+      slug: "#the-crew",
       isActive: false
     }, {
       title: "EVENTS",
+      slug: "#events",
       isActive: false
     }, {
       title: "WHAT'S NEW",
+      slug: "#what's-new",
       isActive: false
     }, {
       title: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("span", {
         children: ["VIRTUAL ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "OFFICE"]
       }),
+      slug: "#virtual-office",
       isActive: false
     }, {
       title: "CONTACT",
+      slug: "#contact",
       isActive: false
     }]),
     _useState2 = _slicedToArray(_useState, 2),
@@ -2316,7 +2322,8 @@ function NavBar() {
       children: menu.map(function (item, index) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "nav-menu-items-item",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+            src: item.slug,
             children: item.title
           })
         }, index);
@@ -2433,7 +2440,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 120pt;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.nav-menu-items-item span {\n  color: #FAFAFA;\n  font-size: 18pt;\n  font-weight: 500;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n}\n\n.nav-menu-links button {\n  margin-right: 20pt;\n  background-color: #5AD3DF;\n  border-radius: 21pt;\n  border: 0;\n  height: 41pt;\n  width: 210pt;\n  min-width: 210pt;\n  font-size: 16pt;\n}\n\n.nav-menu-links-content-img {\n  width: 26pt;\n  height: 26pt;\n  margin-left: 10pt;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 10pt;\n  background-color: #FF7E54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 100%;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 120px;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 24px;\n}\n\n.nav-menu-items-item a {\n  color: #ffffff;\n  font-size: 14px;\n  font-weight: 500;\n  text-decoration: none;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n}\n\n.nav-menu-links button {\n  margin-right: 20px;\n  background-color: #5ad3df;\n  border-radius: 16px;\n  border: 0;\n  height: 41px;\n  width: auto;\n  font-weight: 600;\n  font-family: \"Helvetica\", sans-serif;\n  white-space: nowrap;\n  min-width: 210px;\n  font-size: 14px;\n}\n\n.nav-menu-links-content-img {\n  width: 26px;\n  height: 26px;\n  margin-left: 10px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 10px;\n  background-color: #ff7e54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 100%;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

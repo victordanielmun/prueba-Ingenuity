@@ -27,7 +27,7 @@ root.render(
     <Navbar />
 
     <div className="container">
-
+      
       {/* Banner - imagenes principales */}
       <Banner />
 

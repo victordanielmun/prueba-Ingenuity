@@ -1,11 +1,13 @@
-.navbar{
+@import "../../styles/variables.scss";
+
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 120pt;
-  background-color: #003473;
+  height: 120px;
+  background-color: $blue;
 }
 
 .nav-menu-items{
@@ -13,13 +15,14 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20pt;
+  gap: 24px;
 }
 
-.nav-menu-items-item span{
-  color: #FAFAFA;
-  font-size: 18pt;
+.nav-menu-items-item a {
+  color: $white;
+  font-size: $md;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .nav-menu-links{
@@ -30,23 +33,26 @@
 }
 
 .nav-menu-links button {
-  margin-right: 20pt;
-  background-color: #5AD3DF;
-  border-radius: 21pt;
+  margin-right: 20px;
+  background-color: $blue-marine;
+  border-radius: 16px;
   border: 0;
-  height: 41pt;
-  width: 210pt;
-  min-width: 210pt;
-  font-size: 16pt;
+  height: 41px;
+  width: auto;
+  font-weight: 600;
+  font-family: "Helvetica", sans-serif;
+  white-space: nowrap;
+  min-width: 210px;
+  font-size: $md;
 }
 
 .nav-menu-links-content-img{
-  width: 26pt;
-  height: 26pt;
-  margin-left: 10pt;
+  width: 26px;
+  height: 26px;
+  margin-left: 10px;
   object-fit: contain;
-  padding: 10pt;
-  background-color: #FF7E54;
+  padding: 10px;
+  background-color: $orange;
   border-radius: 50%;
 }
 

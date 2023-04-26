@@ -7,26 +7,32 @@ export default function NavBar() {
   const [menu, setMenu] = useState([
     {
       title: "HOME",
+      slug: "#home",
       isActive: true
     },
     {
       title: "THE CREW",
+      slug: "#the-crew",
       isActive: false
     },
     {
       title: "EVENTS",
+      slug: "#events",
       isActive: false
     },
     {
       title: "WHAT'S NEW",
+      slug: "#what's-new",
       isActive: false
     },
     {
       title: <span>VIRTUAL <br />OFFICE</span>,
+      slug: "#virtual-office",
       isActive: false
     },
     {
       title: "CONTACT",
+      slug: "#contact",
       isActive: false
     }
   ]);
@@ -42,7 +48,7 @@ export default function NavBar() {
         {
           menu.map((item, index) => (
             <div className="nav-menu-items-item" key={index}>
-              <span>{item.title}</span>
+              <a src={item.slug}>{item.title}</a>
             </div>
           ))
         }

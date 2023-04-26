@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+#container-video {
+    position: relative;
+}
+
+.scroll-video {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vertical-line {
+    height: 200px;
+    border-left: 5px solid $orange;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
