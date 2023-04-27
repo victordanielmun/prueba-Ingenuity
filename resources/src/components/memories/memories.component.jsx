@@ -3,7 +3,7 @@ import React from "react";
 import "./index.scss";
 
 export default function Memories() {
-  const fotos = [
+  const memories = [
     { id: 1, src: "/assets/memories/memories1.png", width: 2, height: 2 },
     { id: 2, src: "/assets/memories/memories2.png", width: 1, height: 2 },
     { id: 3, src: "/assets/memories/memories3.png", width: 1, height: 1 },
@@ -19,8 +19,12 @@ export default function Memories() {
         <p>Memories</p>
       </div>
       
-      <div class="grid-container">
-  {/* <div class="grid-item item1"></div> */}
+      <div className="grid-container">
+  {memories.map((memory, index) => (
+          
+            <img src={memory.src} alt={`memory ${memory.id}`} key={memory.id}/>
+          
+        ))}
 
 </div>
 

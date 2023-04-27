@@ -1,0 +1,154 @@
+.whats-new {
+    height: fit-content;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 100pt 0;
+    padding-top: 200pt;
+}
+
+.whats-new-body {
+    width: 100%;
+    border-radius: 14%;
+    background: linear-gradient(#003473, #08BDA8);
+    height: 94%;
+    min-height: 400pt;
+    padding: 55pt 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {}
+
+.logo-title {
+    margin-top: 6pt;
+}
+
+.logo-title-whats {
+    font-size: 60px;
+    color: #FF7E54;
+    font-weight: 500;
+}
+
+.logo-title-new {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10pt;
+}
+
+.logo span {
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.whats-new-link {
+    margin-top: 10pt;
+    margin-bottom: 36pt;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.whats-new-link a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20pt;
+}
+
+.blogs-item {
+    height: 350pt;
+    width: 250pt;
+    border-radius: 20pt;
+    position: relative;
+}
+
+.blog-item-date {
+    width: 56pt;
+    background: #FF7E54;
+    height: fit-content;
+    padding: 10pt;
+    display: grid;
+    text-align: center;
+    left: 14pt;
+    position: absolute;
+    top: 0;
+    border-radius: 5pt;
+}
+
+.blog-item-date strong {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F7F7F7;
+}
+
+.blog-item-date span {
+    font-weight: 500;
+    color: #F7F7F7;
+}
+
+.blog-item-content {
+    height: 100%;
+    background: #00000059;
+    border-radius: 20pt;
+}
+
+.blog-item-content-data {
+    position: absolute;
+    bottom: 24px;
+    padding: 16pt;
+    display: grid;
+}
+
+.blog-item-content-author {
+    color: #F5F5F5;
+}
+
+.blog-item-content-title {
+    color: #F5F5F5;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.blog-item-content-description {
+    color: #F1F5F8;
+    font-size: 14px;
+    margin: 5pt 0;
+    font-weight: 100;
+}
+
+.blog-item-content-button {
+    background: #5AD3DF;
+    border: 0;
+    padding: 6pt 31pt;
+    border-radius: 15pt;
+    font-size: 10pt;
+    margin-top: 10pt;
+}
+
+.whats-new-button-blogs {
+    margin-top: 20pt;
+}
+
+.whats-new-button-blogs button {
+    color: white;
+    background: #EF7A53;
+    border: 0;
+    padding: 4pt 23pt;
+    border-radius: 10pt;
+}

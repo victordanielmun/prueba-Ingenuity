@@ -9,10 +9,10 @@ import ReactDOM from 'react-dom/client';
 // componentes
 import TheCrow from './components/the-crew/the-crew.component'
 import Events from './components/events/events.component'
+import WhatsNew from './components/whats-new/whats-new.component'
 import Navbar from './layout/nav/nav.component'
 import Banner from './layout/banner/banner.component'
-import Memories from './components/memories/memories.component';
-
+import Memories from './components/memories/memories.component'
 
 // configuracion de la aplicación
 const rootElement = document.querySelector('#root');
@@ -28,23 +28,24 @@ root.render(
     <Navbar />
 
     <div className="container">
-    
+
       {/* Banner - imagenes principales */}
-      {/* <Banner /> */}
+      <Banner />
 
       {/* Contenido para Events */}
       <Events />
 
-
-
       {/* Contenido para TheCrow */}
       <TheCrow />
 
-      {/* Contenido para memories */}
-      <Memories />
+      {/* Contenido para WhatsNew */}
+      <WhatsNew />
 
+            {/* Contenido para WhatsNew */}
+            <Memories />
 
-
+      <br />
+      <br />
 
     </div>
 

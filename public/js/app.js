@@ -2068,10 +2068,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/the-crew/the-crew.component */ "./resources/src/components/the-crew/the-crew.component.jsx");
 /* harmony import */ var _components_events_events_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/events/events.component */ "./resources/src/components/events/events.component.jsx");
-/* harmony import */ var _layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout/nav/nav.component */ "./resources/src/layout/nav/nav.component.jsx");
-/* harmony import */ var _layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layout/banner/banner.component */ "./resources/src/layout/banner/banner.component.jsx");
-/* harmony import */ var _components_memories_memories_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/memories/memories.component */ "./resources/src/components/memories/memories.component.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_whats_new_whats_new_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/whats-new/whats-new.component */ "./resources/src/components/whats-new/whats-new.component.jsx");
+/* harmony import */ var _layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layout/nav/nav.component */ "./resources/src/layout/nav/nav.component.jsx");
+/* harmony import */ var _layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layout/banner/banner.component */ "./resources/src/layout/banner/banner.component.jsx");
+/* harmony import */ var _components_memories_memories_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/memories/memories.component */ "./resources/src/components/memories/memories.component.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -2086,16 +2087,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 // configuracion de la aplicación
 
 
 var rootElement = document.querySelector('#root');
 if (!rootElement) throw new Error('No fue posible renderizar la App.');
 var root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(rootElement);
-root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
-  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
+  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
     className: "container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_memories_memories_component__WEBPACK_IMPORTED_MODULE_7__["default"], {})]
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_whats_new_whats_new_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_memories_memories_component__WEBPACK_IMPORTED_MODULE_8__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("br", {})]
   })]
 }));
 
@@ -2152,41 +2154,44 @@ function Events() {
     source: "/assets/events/event4.jpg",
     isActive: true
   }];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-    className: "events",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-      src: "/assets/events/Grupo 54.svg",
-      alt: "Logo Newman club"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "title",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-        children: "Events"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "menu-events",
-      children: events.map(function (item, index) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "event-menu-items-item",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            className: "logo-events",
-            src: item.source,
-            alt: item.event
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "item-event-title",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-              children: item.event
-            })
-          })]
-        }, index);
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
-      className: "button-more-events",
-      children: "MORE EVENTS"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-      children: "Let's have fun, join us in our events. Find out more here."
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "background-image"
-    })]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "events-content",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "events",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+        src: "/assets/events/Grupo 54.svg",
+        alt: "Logo Newman club"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "title",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          children: "Events"
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "menu-events",
+        children: events.map(function (item, index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "event-menu-items-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+              className: "logo-events",
+              src: item.source,
+              alt: item.event
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "item-event-title",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                children: item.event
+              })
+            })]
+          }, index);
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+        className: "button-more-events",
+        children: "MORE EVENTS"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+        children: "Let's have fun, join us in our events. Find out more here."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "background-image"
+      })]
+    })
   });
 }
 
@@ -2212,7 +2217,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Memories() {
-  var fotos = [{
+  var memories = [{
     id: 1,
     src: "/assets/memories/memories1.png",
     width: 2,
@@ -2254,7 +2259,13 @@ function Memories() {
         children: "Memories"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      "class": "grid-container"
+      className: "grid-container",
+      children: memories.map(function (memory, index) {
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+          src: memory.src,
+          alt: "memory ".concat(memory.id)
+        }, memory.id);
+      })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
       className: "button-more-events",
       children: "MORE MEMORIES"
@@ -2288,68 +2299,239 @@ function TheCrew() {
     className: "the-crew-background",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
       className: "the-crew",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "the-crew-content",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "the-crew-content-text",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-            className: "title",
-            children: ["The ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-              children: "crew."
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "the-crew-border"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "the-crew-body",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "the-crew-content",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "the-crew-content-text",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
+              className: "title",
+              children: ["The ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                children: "crew."
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+              className: "text-content",
+              children: "The Catholic community at Trinity participates in the sacramental life of the church and serves actively as a partner in community building and interreligious dialogue to promote understanding and tolerance on campus."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+              className: "text-content",
+              children: "Roman Catholic Campus Ministry is sponsored by the Archdiocese of Hartford Campus Ministry Office and Trinity College\u2019s Office of Spiritual and Religious Life. It brings a vitally important dimension to life at Trinity College."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "center-icons",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+                className: "the-crew-body-btn-read-more",
+                children: "LEARN MORE"
+              })
             })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-            className: "text-content",
-            children: ["The Catholic community at Trinity participates in the sacramental life of the church and serves actively as a partner in community building and interreligious dialogue to promote understanding and tolerance on campus.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "Roman Catholic Campus Ministry is sponsored by the Archdiocese of Hartford Campus Ministry Office and Trinity College\u2019s Office of Spiritual and Religious Life. It brings a vitally important dimension to life at Trinity College."]
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
-          "class": "the-crew-content-button",
-          children: "LEARN MORE"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "the-crew-content-img",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "/assets/thecrew/1.png",
+            alt: ""
+          })
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "the-crew-content-img",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-          src: "/assets/thecrew/1.png",
-          alt: ""
+        className: "the-crew-footer-content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "the-crew-footer",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "the-crew-footer-social",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "center-icons",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                src: "/assets/the-crew/icon-1.svg",
+                alt: "icon1"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                className: "the-crew-social-number",
+                children: "165"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
+                className: "the-crew-social-text",
+                children: ["Happy freshman ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "members"]
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "border-the-crew-icon"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "the-crew-footer-social",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "center-icons",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                src: "/assets/the-crew/icon-2.svg",
+                alt: "icon2"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                className: "the-crew-social-number",
+                children: "13"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
+                className: "the-crew-social-text",
+                children: ["Wise Senior ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "members"]
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "border-the-crew-icon"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "the-crew-footer-social",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "center-icons",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+                src: "/assets/the-crew/icon-3.svg",
+                alt: "icon3"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                className: "the-crew-social-number",
+                children: "173"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                className: "the-crew-social-text",
+                children: "The whole crew"
+              })]
+            })]
+          })]
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "the-crew-footer",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "the-crew-footer-social",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "/assets/thecrew/carafeliz.svg",
-            alt: "icon1"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-number",
-            children: "165"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-text",
-            children: "Happy freshman members"
-          })]
+      })]
+    })
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/src/components/whats-new/whats-new.component.jsx":
+/*!********************************************************************!*\
+  !*** ./resources/src/components/whats-new/whats-new.component.jsx ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ WhatsNew)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./resources/src/components/whats-new/index.scss");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+function WhatsNew() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
+      title: "Blog 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      image: "/assets/whats-new-1.jpg",
+      author: "Jane doe",
+      is_open: true
+    }, {
+      title: "Blog 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      image: "/assets/whats-new-2.png",
+      author: "Jane doe",
+      is_open: false
+    }, {
+      title: "Blog 3",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      image: "/assets/whats-new-3.jpg",
+      author: "Jane doe",
+      is_open: false
+    }, {
+      title: "Blog 4",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      image: "/assets/whats-new-4.jpg",
+      author: "Jane doe",
+      is_open: false
+    }]),
+    _useState2 = _slicedToArray(_useState, 2),
+    blogs = _useState2[0],
+    setBlogs = _useState2[1];
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "whats-new",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "whats-new-body",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "logo",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "center",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "/assets/events/Grupo 54.svg",
+            alt: "logo"
+          })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "the-crew-footer-social",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "/assets/thecrew/grupo2.svg",
-            alt: "icon2"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-number",
-            children: "13"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-text",
-            children: "Wise Senior members"
+          className: "logo-title",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("strong", {
+            className: "logo-title-whats",
+            children: "What's"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("strong", {
+            className: "logo-title-new",
+            children: "new"
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "the-crew-footer-social",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "/assets/thecrew/grupo3.svg",
-            alt: "icon3"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-number",
-            children: "173"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: "the-crew-social-text",
-            children: "The whole crew"
-          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+          children: "Find out about the latest news about our club."
         })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "whats-new-link",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+          href: "/"
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "blogs",
+        children: blogs.map(function (blog, index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "blogs-item",
+            style: {
+              backgroundImage: "url(".concat(blog.image, ")")
+            },
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              className: "blog-item-date",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("strong", {
+                children: "12"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                children: "Aug"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                children: "2016"
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "blog-item-content",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                className: "blog-item-content-data",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("small", {
+                  className: "blog-item-content-author",
+                  children: blog.author
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("strong", {
+                  className: "blog-item-content-title",
+                  children: blog.title
+                }), blog.is_open ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+                    className: "blog-item-content-description",
+                    children: blog.description
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                    className: "blog-item-content-button center",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+                      children: "SEE MORE"
+                    })
+                  })]
+                }) : '']
+              })
+            })]
+          }, index);
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "center whats-new-button-blogs",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+          children: "FIND OUT MORE"
+        })
       })]
     })
   });
@@ -2375,9 +2557,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 function Banner() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "banner"
+    className: "banner",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("video", {
+      autoPlay: true,
+      loop: true,
+      muted: true,
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("source", {
+        src: "/assets/video/video.mp4",
+        type: "video/mp4"
+      }), "Your browser does not support the video tag."]
+    })
   });
 }
 
@@ -2495,7 +2687,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 1000px;\n  height: 700px;\n  position: absolute;\n  background-color: #FAFAFA;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-40%);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".events-content {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  overflow-x: auto;\n  padding-left: 6rem;\n  margin-top: 80pt;\n}\n\n.events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 110pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n  padding-right: 90pt;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 1000px;\n  height: 700px;\n  position: absolute;\n  background-color: #FAFAFA;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-40%);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2519,7 +2711,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".memories {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n  grid-gap: 10px;\n}\n\n.grid-item {\n  background-color: #ddd;\n  height: 100px;\n  text-align: center;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".memories {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.grid-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch;\n  align-content: stretch;\n  gap: 10pt;\n  width: 1305pt;\n}\n\n.grid-item img {\n  height: 212pt;\n  overflow: hidden;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2543,7 +2735,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 8pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: -3px 2px 9px -2px rgba(0, 0, 0, 0.75);\n  margin-top: 120pt;\n  margin-bottom: 120pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  width: 419pt;\n  height: 190pt;\n  text-align: justify;\n  font-family: \"Poppins\", sans-serif;\n  color: #666666;\n}\n\n.the-crew-content-button {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.the-crew-content-img {\n  border-radius: 10pt;\n  overflow: hidden;\n  height: 444pt;\n  width: 538pt;\n}\n\n.the-crew-footer {\n  position: absolute;\n  top: -20px;\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: #ffffff;\n  border-radius: 10pt;\n  width: 609pt;\n  height: 189pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 30pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);\n  margin-top: 120pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  position: relative;\n}\n\n.the-crew-border {\n  border-left-color: #FF7E54;\n  border-left-width: 3px;\n  border-left-style: solid;\n  height: 90%;\n  position: absolute;\n  left: -2px;\n}\n\n.the-crew-body {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  padding: 40pt;\n  width: 65%;\n}\n\n.the-crew-body-btn-read-more {\n  margin: 20pt 0;\n  padding: 8pt 33pt;\n  border-radius: 37pt;\n  background-color: #EF7A53;\n  border: 0;\n  color: white;\n  font-size: 13px;\n}\n\n.the-crew-content-img {\n  width: 46%;\n  height: 390pt;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: fill;\n     object-fit: fill;\n  padding: 2pt;\n  border-radius: 20pt;\n  border: 0px;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}\n\n.the-crew-footer-content {\n  position: absolute;\n  bottom: -78px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n}\n\n.the-crew-footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: white;\n  box-shadow: 0 6px 10px -5px #bfbebe;\n  border-radius: 10pt;\n  padding: 20pt 41pt;\n  gap: 44pt;\n  flex-wrap: wrap;\n  width: 50%;\n}\n\n.center-icons {\n  display: flex;\n  justify-content: center;\n}\n\n.border-the-crew-icon {\n  height: 92pt;\n  width: 1px;\n  background: #235286;\n}\n\n.the-crew-social-number {\n  text-align: center;\n  font-size: 63px;\n  color: #FF7E54;\n  font-weight: bold;\n}\n\n.the-crew-social-text {\n  color: #235286;\n  font-size: 20px;\n  font-weight: 300;\n  text-align: center;\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/whats-new/index.scss":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/whats-new/index.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".whats-new {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  background-color: #FAFAFA;\n  padding: 100pt 0;\n  padding-top: 200pt;\n}\n\n.whats-new-body {\n  width: 100%;\n  border-radius: 14%;\n  background: linear-gradient(#003473, #08BDA8);\n  height: 94%;\n  min-height: 400pt;\n  padding: 55pt 0;\n}\n\n.center {\n  display: flex;\n  justify-content: center;\n}\n\n.logo {\n  text-align: center;\n}\n\n.logo-title {\n  margin-top: 6pt;\n}\n\n.logo-title-whats {\n  font-size: 60px;\n  color: #FF7E54;\n  font-weight: 500;\n}\n\n.logo-title-new {\n  font-size: 60px;\n  color: white;\n  font-weight: bold;\n  margin-left: 10pt;\n}\n\n.logo span {\n  color: #F5F5F5;\n  font-weight: 100;\n}\n\n.whats-new-link {\n  margin-top: 10pt;\n  margin-bottom: 36pt;\n  display: flex;\n  justify-content: flex-end;\n  margin-right: 10%;\n}\n\n.whats-new-link a {\n  color: #F5F5F5;\n  text-decoration: none;\n  font-size: 10pt;\n  font-weight: 100;\n}\n\n.blogs {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.blogs-item {\n  height: 350pt;\n  width: 250pt;\n  border-radius: 20pt;\n  position: relative;\n}\n\n.blog-item-date {\n  width: 56pt;\n  background: #FF7E54;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 10pt;\n  display: grid;\n  text-align: center;\n  left: 14pt;\n  position: absolute;\n  top: 0;\n  border-radius: 5pt;\n}\n\n.blog-item-date strong {\n  font-size: 48px;\n  font-weight: bold;\n  color: #F7F7F7;\n}\n\n.blog-item-date span {\n  font-weight: 500;\n  color: #F7F7F7;\n}\n\n.blog-item-content {\n  height: 100%;\n  background: rgba(0, 0, 0, 0.3490196078);\n  border-radius: 20pt;\n}\n\n.blog-item-content-data {\n  position: absolute;\n  bottom: 24px;\n  padding: 16pt;\n  display: grid;\n}\n\n.blog-item-content-author {\n  color: #F5F5F5;\n}\n\n.blog-item-content-title {\n  color: #F5F5F5;\n  font-size: 35px;\n  font-weight: bold;\n}\n\n.blog-item-content-description {\n  color: #F1F5F8;\n  font-size: 14px;\n  margin: 5pt 0;\n  font-weight: 100;\n}\n\n.blog-item-content-button {\n  background: #5AD3DF;\n  border: 0;\n  padding: 6pt 31pt;\n  border-radius: 15pt;\n  font-size: 10pt;\n  margin-top: 10pt;\n}\n\n.whats-new-button-blogs {\n  margin-top: 20pt;\n}\n\n.whats-new-button-blogs button {\n  color: white;\n  background: #EF7A53;\n  border: 0;\n  padding: 4pt 23pt;\n  border-radius: 10pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2567,7 +2783,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".banner {\n  background-color: #ff7e54;\n  width: 100%;\n  height: calc(100vh - 80pt);\n  margin-top: -15pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".banner {\n  background-color: #ff7e54;\n  width: 100%;\n  height: calc(100vh - 100pt);\n  margin-top: -15pt;\n}\n\n.banner video {\n  width: 100%;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2591,7 +2807,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 90pt;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 30pt;\n}\n\n.nav-menu-items-item a {\n  color: #ffffff;\n  font-size: 14pt;\n  font-weight: 500;\n  text-decoration: none;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  margin-right: 30pt;\n}\n\n.nav-menu-links button {\n  margin-right: 15pt;\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  height: 30pt;\n  width: auto;\n  font-weight: 600;\n  font-family: \"Helvetica\", sans-serif;\n  white-space: nowrap;\n  min-width: 157pt;\n  font-size: 14pt;\n}\n\n.nav-menu-links-content-img {\n  width: 19pt;\n  height: 19pt;\n  margin-left: 7pt;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 7pt;\n  background-color: #ff7e54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 100%;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbar {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n  width: 100%;\n  height: 90pt;\n  background-color: #003473;\n}\n\n.nav-menu-items {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 30pt;\n}\n\n.nav-menu-items-item a {\n  color: #ffffff;\n  font-size: 14pt;\n  font-weight: 500;\n  text-decoration: none;\n}\n\n.nav-menu-links {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  flex-wrap: wrap;\n  margin-right: 30pt;\n}\n\n.nav-menu-links button {\n  margin-right: 15pt;\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  height: 30pt;\n  width: auto;\n  font-weight: 600;\n  font-family: \"Helvetica\", sans-serif;\n  white-space: nowrap;\n  min-width: 157pt;\n  font-size: 14pt;\n}\n\n.nav-menu-links-content-img {\n  width: 25pt;\n  height: 26pt;\n  margin-left: 7pt;\n  -o-object-fit: contain;\n     object-fit: contain;\n  padding: 7pt;\n  background-color: #ff7e54;\n  border-radius: 50%;\n}\n\n.nav-menu-links-content-img img {\n  width: 11pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50779,6 +50995,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/the-crew/index.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/src/components/whats-new/index.scss":
+/*!*******************************************************!*\
+  !*** ./resources/src/components/whats-new/index.scss ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/whats-new/index.scss");
 
             
 

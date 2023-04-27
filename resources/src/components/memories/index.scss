@@ -52,14 +52,20 @@ margin-bottom: 180pt;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 10pt;
+    width: 1305pt;
   }
   
-  .grid-item {
-    background-color: #ddd;
-    height: 100px;
-    text-align: center;
+
+  .grid-item img {
+    height: 212pt;
+
+    overflow: hidden;
   }
+
+ 
