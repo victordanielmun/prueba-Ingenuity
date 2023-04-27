@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.memories{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 60pt; 
+position: relative;
+z-index: 1;
+margin-bottom: 180pt;
+}
+
+.logo-events {
+    width: 62pt;
+    height: 33pt;
+}
+
+
+
+
+.title {
+    width: 241pt;
+    height: 63pt;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45pt;
+}
+
+.title p {
+    font-size: 45pt;
+    font-family: $redhat;
+    text-align: center;
+    font-weight: bold;
+    color: $blue;
+}
+
+
+.button-more-events {
+    background-color: $blue-marine;
+    border-radius: 16pt;
+    border: 0;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    white-space: nowrap;
+    width: 157pt;
+    height: 30pt;
+    padding: 8pt auto;
+    margin: 27pt;
+    color: $white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #ddd;
+    height: 100px;
+    text-align: center;
+  }

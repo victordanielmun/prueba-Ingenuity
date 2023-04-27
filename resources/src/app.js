@@ -11,6 +11,7 @@ import TheCrow from './components/the-crew/the-crew.component'
 import Events from './components/events/events.component'
 import Navbar from './layout/nav/nav.component'
 import Banner from './layout/banner/banner.component'
+import Memories from './components/memories/memories.component';
 
 
 // configuracion de la aplicación
@@ -38,6 +39,9 @@ root.render(
 
       {/* Contenido para TheCrow */}
       <TheCrow />
+
+      {/* Contenido para memories */}
+      <Memories />
 
 
 
