@@ -124,8 +124,48 @@ footer {
 .footer-middle-newsletter {
   flex: 1 1 auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.footer-middle-newsletter p {
+  color: $white;
+  font-size: 20pt;
+  font-family: $poppins;
+  font-weight: 300;
+  text-align: left;
+  width: 310pt;
+  text-align: center;
+
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+  outline: none;
+}
+
+button {
+  background-color: $orange;
+  border-radius: 16pt;
+  border: 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  white-space: nowrap;
+  width: 157pt;
+  height: 30pt;
+  padding: 8pt auto;
+  margin: 27pt;
+  color: $white;
+  cursor: pointer;
 }
 
 .oval {
