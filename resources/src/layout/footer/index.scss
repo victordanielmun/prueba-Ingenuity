@@ -15,7 +15,7 @@ footer {
 
 .footer-last {
   background-color: $orange;
-  width: 100%;
+  width: 100wv;
   height: 69pt;
   color: $white;
   display: flex;
@@ -23,7 +23,7 @@ footer {
   justify-content: center;
 }
 
-.footer-last p{
+.footer-last p {
   color: $white;
   font-size: 12pt;
   font-family: Helvetica, sans-serif;
@@ -35,39 +35,98 @@ footer {
   background-color: $blue;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items:end;
+  justify-content: space-between;
+  align-items: end;
   width: 100%;
-  flex-grow: 1;
 }
 
 .footer-middle-address {
-  display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  margin-left: 90pt;
+  margin-bottom: 90pt;
   align-items: center;
+  width: 402pt;
 }
 
 .footer-middle-address p {
   color: $white;
-  font-size: 12pt;
+  font-size: 16pt;
   font-family: Helvetica, sans-serif;
   font-weight: 300;
   text-align: justify;
-  width: 402pt;
+  width: 310pt;
 }
 
 .footer-middle-address img {
-  width: 128pt;
-  height: 27pt;
-  margin: 0;
+  width: 256pt;
+  height: 54pt;
+  margin: 20pt 0;
   padding: 0;
+  justify-content: center;
+  width: 310pt;
+}
+
+.footer-middle-address-social {
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310pt;
+}
+
+.social-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 15pt;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15pt;
+  
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30pt 140pt 50pt 0pt;
 }
 
 
-footer-middle-address-social
+.social-icons img {
+  width: 35pt;
+  height: 36pt;
+  margin-left: 7pt;
+  object-fit: contain;
+  padding: 7pt;
+  background-color: $white;
+  border-radius: 50%;
+}
+.social-address p {
+  color: $white;
+  font-size: 16pt;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  width: 310pt;
+  margin-left: 10pt;
+}
 
-
+.footer-middle-newsletter {
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .oval {
   top: 0;
