@@ -2072,7 +2072,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layout/nav/nav.component */ "./resources/src/layout/nav/nav.component.jsx");
 /* harmony import */ var _layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layout/banner/banner.component */ "./resources/src/layout/banner/banner.component.jsx");
 /* harmony import */ var _components_memories_memories_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/memories/memories.component */ "./resources/src/components/memories/memories.component.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_music_music_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/music/music.component */ "./resources/src/components/music/music.component.jsx");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -2088,16 +2089,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 // configuracion de la aplicación
 
 
-var rootElement = document.querySelector('#root');
-if (!rootElement) throw new Error('No fue posible renderizar la App.');
+var rootElement = document.querySelector("#root");
+if (!rootElement) throw new Error("No fue posible renderizar la App.");
 var root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(rootElement);
-root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
-  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxs)("div", {
+root.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {
+  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_layout_nav_nav_component__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
     className: "container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_whats_new_whats_new_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_memories_memories_component__WEBPACK_IMPORTED_MODULE_8__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)("br", {})]
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_layout_banner_banner_component__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_events_events_component__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_the_crew_the_crew_component__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_whats_new_whats_new_component__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_memories_memories_component__WEBPACK_IMPORTED_MODULE_8__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_music_music_component__WEBPACK_IMPORTED_MODULE_9__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("br", {})]
   })]
 }));
 
@@ -2261,14 +2263,53 @@ function Memories() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
       className: "grid-container",
       children: memories.map(function (memory, index) {
-        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-          src: memory.src,
-          alt: "memory ".concat(memory.id)
-        }, memory.id);
+        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+          className: "image-memory",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: memory.src,
+            alt: "memory ".concat(memory.id)
+          }, memory.id)
+        });
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
       className: "button-more-events",
       children: "MORE MEMORIES"
+    })]
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/src/components/music/music.component.jsx":
+/*!************************************************************!*\
+  !*** ./resources/src/components/music/music.component.jsx ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Music)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./resources/src/components/music/index.scss");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Music() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "music",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+      src: "/assets/music/music1.png",
+      alt: "Logo music 1",
+      className: "music-man"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+      src: "/assets/music/music2.jpg",
+      alt: "Logo music 2",
+      className: "music-list"
     })]
   });
 }
@@ -2687,7 +2728,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".events-content {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  overflow-x: auto;\n  padding-left: 6rem;\n  margin-top: 80pt;\n}\n\n.events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 110pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n  padding-right: 90pt;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 1000px;\n  height: 700px;\n  position: absolute;\n  background-color: #FAFAFA;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-40%);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".events-content {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  overflow-x: auto;\n  padding-left: 6rem;\n  margin-top: 80pt;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 100pt 0;\n  padding-top: 200pt;\n}\n\n.events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 110pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n  padding-right: 90pt;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 1000px;\n  height: 700px;\n  position: absolute;\n  background-color: #FAFAFA;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-40%);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2711,7 +2752,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".memories {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.grid-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch;\n  align-content: stretch;\n  gap: 10pt;\n  width: 1305pt;\n}\n\n.grid-item img {\n  height: 212pt;\n  overflow: hidden;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".memories {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #5ad3df;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.grid-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch;\n  align-content: stretch;\n  gap: 10pt;\n  width: 1305pt;\n}\n\n.image-memory {\n  border-radius: 20pt;\n}\n\n.grid-item img {\n  height: 212pt;\n  overflow: hidden;\n  border-radius: 20pt;\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/music/index.scss":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/music/index.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".music {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  padding: 100pt 0;\n  padding-top: 200pt;\n  position: relative;\n  z-index: -1;\n  height: 450pt;\n  background: rgb(0, 0, 0);\n  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(42, 197, 182) 100%);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2759,7 +2824,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".whats-new {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  background-color: #FAFAFA;\n  padding: 100pt 0;\n  padding-top: 200pt;\n}\n\n.whats-new-body {\n  width: 100%;\n  border-radius: 14%;\n  background: linear-gradient(#003473, #08BDA8);\n  height: 94%;\n  min-height: 400pt;\n  padding: 55pt 0;\n}\n\n.center {\n  display: flex;\n  justify-content: center;\n}\n\n.logo {\n  text-align: center;\n}\n\n.logo-title {\n  margin-top: 6pt;\n}\n\n.logo-title-whats {\n  font-size: 60px;\n  color: #FF7E54;\n  font-weight: 500;\n}\n\n.logo-title-new {\n  font-size: 60px;\n  color: white;\n  font-weight: bold;\n  margin-left: 10pt;\n}\n\n.logo span {\n  color: #F5F5F5;\n  font-weight: 100;\n}\n\n.whats-new-link {\n  margin-top: 10pt;\n  margin-bottom: 36pt;\n  display: flex;\n  justify-content: flex-end;\n  margin-right: 10%;\n}\n\n.whats-new-link a {\n  color: #F5F5F5;\n  text-decoration: none;\n  font-size: 10pt;\n  font-weight: 100;\n}\n\n.blogs {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.blogs-item {\n  height: 350pt;\n  width: 250pt;\n  border-radius: 20pt;\n  position: relative;\n}\n\n.blog-item-date {\n  width: 56pt;\n  background: #FF7E54;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 10pt;\n  display: grid;\n  text-align: center;\n  left: 14pt;\n  position: absolute;\n  top: 0;\n  border-radius: 5pt;\n}\n\n.blog-item-date strong {\n  font-size: 48px;\n  font-weight: bold;\n  color: #F7F7F7;\n}\n\n.blog-item-date span {\n  font-weight: 500;\n  color: #F7F7F7;\n}\n\n.blog-item-content {\n  height: 100%;\n  background: rgba(0, 0, 0, 0.3490196078);\n  border-radius: 20pt;\n}\n\n.blog-item-content-data {\n  position: absolute;\n  bottom: 24px;\n  padding: 16pt;\n  display: grid;\n}\n\n.blog-item-content-author {\n  color: #F5F5F5;\n}\n\n.blog-item-content-title {\n  color: #F5F5F5;\n  font-size: 35px;\n  font-weight: bold;\n}\n\n.blog-item-content-description {\n  color: #F1F5F8;\n  font-size: 14px;\n  margin: 5pt 0;\n  font-weight: 100;\n}\n\n.blog-item-content-button {\n  background: #5AD3DF;\n  border: 0;\n  padding: 6pt 31pt;\n  border-radius: 15pt;\n  font-size: 10pt;\n  margin-top: 10pt;\n}\n\n.whats-new-button-blogs {\n  margin-top: 20pt;\n}\n\n.whats-new-button-blogs button {\n  color: white;\n  background: #EF7A53;\n  border: 0;\n  padding: 4pt 23pt;\n  border-radius: 10pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".whats-new {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  background-color: #FAFAFA;\n  padding: 100pt 0;\n  padding-top: 200pt;\n}\n\n.whats-new-body {\n  width: 100%;\n  border-radius: 14%;\n  background: linear-gradient(#003473, #08BDA8);\n  height: 94%;\n  min-height: 400pt;\n  padding: 55pt 0;\n}\n\n.center {\n  display: flex;\n  justify-content: center;\n}\n\n.logo {\n  text-align: center;\n}\n\n.logo-title {\n  margin-top: 6pt;\n}\n\n.logo-title-whats {\n  font-size: 60px;\n  color: #ff7e54;\n  font-weight: 500;\n}\n\n.logo-title-new {\n  font-size: 60px;\n  color: #ffffff;\n  font-weight: bold;\n  margin-left: 10pt;\n}\n\n.logo span {\n  color: #FAFAFA;\n  font-weight: 100;\n}\n\n.whats-new-link {\n  margin-top: 10pt;\n  margin-bottom: 36pt;\n  display: flex;\n  justify-content: flex-end;\n  margin-right: 10%;\n}\n\n.whats-new-link a {\n  color: #FAFAFA;\n  text-decoration: none;\n  font-size: 10pt;\n  font-weight: 100;\n}\n\n.blogs {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.blogs-item {\n  height: 350pt;\n  width: 250pt;\n  border-radius: 20pt;\n  position: relative;\n}\n\n.blog-item-date {\n  width: 56pt;\n  background: #ff7e54;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 10pt;\n  display: grid;\n  text-align: center;\n  left: 14pt;\n  position: absolute;\n  top: 0;\n  border-radius: 5pt;\n}\n\n.blog-item-date strong {\n  font-size: 48px;\n  font-weight: bold;\n  color: #F7F7F7;\n}\n\n.blog-item-date span {\n  font-weight: 500;\n  color: #F7F7F7;\n}\n\n.blog-item-content {\n  height: 100%;\n  background: rgba(0, 0, 0, 0.3490196078);\n  border-radius: 20pt;\n}\n\n.blog-item-content-data {\n  position: absolute;\n  bottom: 24px;\n  padding: 16pt;\n  display: grid;\n}\n\n.blog-item-content-author {\n  color: #ffffff;\n}\n\n.blog-item-content-title {\n  color: #ffffff;\n  font-size: 35px;\n  font-weight: bold;\n}\n\n.blog-item-content-description {\n  color: #F1F5F8;\n  font-size: 14px;\n  margin: 5pt 0;\n  font-weight: 100;\n}\n\n.blog-item-content-button {\n  background: #5ad3df;\n  border: 0;\n  padding: 6pt 31pt;\n  border-radius: 15pt;\n  font-size: 10pt;\n  margin-top: 10pt;\n}\n\n.whats-new-button-blogs {\n  margin-top: 20pt;\n}\n\n.whats-new-button-blogs button {\n  color: white;\n  background: #ff7e54;\n  border: 0;\n  padding: 4pt 23pt;\n  border-radius: 10pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50965,6 +51030,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/memories/index.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/src/components/music/index.scss":
+/*!***************************************************!*\
+  !*** ./resources/src/components/music/index.scss ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/music/index.scss");
 
             
 

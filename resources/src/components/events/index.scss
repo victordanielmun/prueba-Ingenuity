@@ -1,119 +1,119 @@
 @import "../../styles/variables.scss";
 
 .events-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    overflow-x: auto;
-    padding-left: 6rem;
-    margin-top: 80pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  padding-left: 6rem;
+  margin-top: 80pt;
+  height: fit-content;
+  padding: 100pt 0;
+  padding-top: 200pt;
 }
 
 .events {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60pt;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 110pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60pt;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 110pt;
 }
 
 .logo-events {
-    width: 62pt;
-    height: 33pt;
+  width: 62pt;
+  height: 33pt;
 }
 
 .menu-events {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 12pt;
-    margin: 0;
-    z-index: 1;
-    padding-right: 90pt;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12pt;
+  margin: 0;
+  z-index: 1;
+  padding-right: 90pt;
 }
 
 .menu-events img {
-    width: 298pt;
-    height: 383pt;
-    border-radius: 16pt;
-    filter: brightness(0.5);
+  width: 298pt;
+  height: 383pt;
+  border-radius: 16pt;
+  filter: brightness(0.5);
 }
 
 .item-event-title {
-    position: absolute;
-    top: 0;
-    width: 260pt;
-    height: 97pt;
-    margin: 0 18pt;
+  position: absolute;
+  top: 0;
+  width: 260pt;
+  height: 97pt;
+  margin: 0 18pt;
 }
 
 .event-menu-items-item p {
-    margin-top: 171pt;
-    font-size: 33pt;
-    font-family: $poppins;
-    text-align: center;
-    font-weight: bold;
-    color: $white;
+  margin-top: 171pt;
+  font-size: 33pt;
+  font-family: $poppins;
+  text-align: center;
+  font-weight: bold;
+  color: $white;
 }
 
 .title {
-    width: 241pt;
-    height: 63pt;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 45pt;
+  width: 241pt;
+  height: 63pt;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45pt;
 }
 
 .title p {
-    font-size: 45pt;
-    font-family: $redhat;
-    text-align: center;
-    font-weight: bold;
-    color: $blue;
+  font-size: 45pt;
+  font-family: $redhat;
+  text-align: center;
+  font-weight: bold;
+  color: $blue;
 }
 
-
 .button-more-events {
-    background-color: $orange;
-    border-radius: 16pt;
-    border: 0;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 600;
-    font-size: 12pt;
-    white-space: nowrap;
-    width: 157pt;
-    height: 30pt;
-    padding: 8pt auto;
-    margin: 27pt;
-    color: $white;
+  background-color: $orange;
+  border-radius: 16pt;
+  border: 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  white-space: nowrap;
+  width: 157pt;
+  height: 30pt;
+  padding: 8pt auto;
+  margin: 27pt;
+  color: $white;
 }
 
 .events span {
-    font-size: 17pt;
-    font-family: $poppins;
-    font-weight: 300;
-    text-align: left;
+  font-size: 17pt;
+  font-family: $poppins;
+  font-weight: 300;
+  text-align: left;
 }
 
 .background-image {
-    width: 1000px;
-    height: 700px;
-    position: absolute;
-    background-color: $gray-white;
-    z-index: -1;
-    border-top: 10px;
-    border-bottom: 10px;
-    border-right: 10px;
-    border-radius: 50% 0 0 50%;
-    right: 0;
-    top: 50%;
-    transform: translateY(-40%);
-
-
+  width: 1000px;
+  height: 700px;
+  position: absolute;
+  background-color: $gray-white;
+  z-index: -1;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-right: 10px;
+  border-radius: 50% 0 0 50%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-40%);
 }

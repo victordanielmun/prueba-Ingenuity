@@ -21,9 +21,9 @@ export default function Memories() {
       
       <div className="grid-container">
   {memories.map((memory, index) => (
-          
+            <div className="image-memory">
             <img src={memory.src} alt={`memory ${memory.id}`} key={memory.id}/>
-          
+            </div>
         ))}
 
 </div>
