@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 120pt;
+  height: 90pt;
   background-color: $blue;
 }
 
@@ -15,7 +15,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24pt;
+  gap: 18pt;
 }
 
 .nav-menu-items-item a {
@@ -33,25 +33,25 @@
 }
 
 .nav-menu-links button {
-  margin-right: 20pt;
+  margin-right: 15pt;
   background-color: $blue-marine;
   border-radius: 16pt;
   border: 0;
-  height: 41pt;
+  height: 30pt;
   width: auto;
   font-weight: 600;
   font-family: "Helvetica", sans-serif;
   white-space: nowrap;
-  min-width: 210pt;
+  min-width: 157pt;
   font-size: $md;
 }
 
 .nav-menu-links-content-img{
-  width: 26pt;
-  height: 26pt;
-  margin-left: 10pt;
+  width: 19pt;
+  height: 19pt;
+  margin-left: 7pt;
   object-fit: contain;
-  padding: 10pt;
+  padding: 7pt;
   background-color: $orange;
   border-radius: 50%;
 }

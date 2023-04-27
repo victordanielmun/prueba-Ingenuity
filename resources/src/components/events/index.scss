@@ -5,14 +5,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding-top: 80pt; 
+padding-top: 60pt; 
 position: relative;
 z-index: 1;
 }
 
 .logo-events {
-    width: 83pt;
-    height: 44pt;
+    width: 62pt;
+    height: 33pt;
 }
 
 .menu-events {
@@ -21,28 +21,28 @@ z-index: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16pt;
+    gap: 12pt;
     margin: 0;
 }
 
 .menu-events img {
-    width: 398pt;
-    height: 511pt;
-    border-radius: 22pt;
+    width: 298pt;
+    height: 383pt;
+    border-radius: 16pt;
     filter: brightness(0.5);
 }
 
 .item-event-title {
     position: absolute;
     top:0;
-    width: 347pt;
-    height: 130pt;
-    margin: 0 25pt;
+    width: 260pt;
+    height: 97pt;
+    margin: 0 18pt;
 }
 
 .event-menu-items-item p {
-    margin-top: 229pt;
-    font-size: 45pt;
+    margin-top: 171pt;
+    font-size: 33pt;
     font-family: $poppins;
     text-align: center;
     font-weight: bold;
@@ -50,15 +50,15 @@ z-index: 1;
 }
 
 .title {
-    width: 322pt;
-    height: 84pt;
+    width: 241pt;
+    height: 63pt;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30pt;
+    margin-bottom: 45pt;
 }
 
 .title p {
-    font-size: 60pt;
+    font-size: 45pt;
     font-family: $redhat;
     text-align: center;
     font-weight: bold;
@@ -72,31 +72,27 @@ z-index: 1;
     border: 0;
     font-family: "Helvetica", sans-serif;
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 12pt;
     white-space: nowrap;
-    width: 210pt;
-    height: 41pt;
-    padding: 11pt auto;
-    margin: 36pt;
+    width: 157pt;
+    height: 30pt;
+    padding: 8pt auto;
+    margin: 27pt;
     color: $white;
 }
 
 .events span {
-    font-size: 23pt;
+    font-size: 17pt;
     font-family: $poppins;
     font-weight: 300;
     text-align: left;
 }
 
 .background-image {
-    top:25%;
-    bottom: 0;
-    left: 50%;
-    width: 1000pt;
-    height: 800pt;
-    margin: 0 25pt;
-    background-color: $gray-white;
     position: absolute;
-    z-index: -1;
+    top:0;
+    width: 400pt;
+    height: 300pt;
+    background-color: $gray-white;
     
 }
