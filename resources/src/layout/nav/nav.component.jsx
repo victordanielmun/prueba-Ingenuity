@@ -44,7 +44,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       {/* Logo */}
-      <img src="/assets/logo.svg" alt="logo" />
+      <img src="/assets/logo.svg" alt="logo" className="logo"/>
 
       {/* Menu items */}
       <div className="nav-menu-items">

@@ -18,7 +18,7 @@ export default function JoinUs() {
               </p>
               <br />
               <form>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="text"
                     id="full-name"
@@ -26,12 +26,12 @@ export default function JoinUs() {
                     placeholder="Full Name"
                     // required
                   />
-                  <div class="error-msg">
+                  <div className="error-msg">
                   Please enter your full name
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="email"
                     id="email"
@@ -39,12 +39,12 @@ export default function JoinUs() {
                     placeholder="Email Address"
                     //required
                   />
-                  <div class="error-msg">
+                  <div className="error-msg">
                   Please enter a valid email
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="tel"
                     id="phone"
@@ -52,19 +52,19 @@ export default function JoinUs() {
                     placeholder="Cell Phone Number"
                     //required
                   />
-                  <div class="error-msg">
+                  <div className="error-msg">
                   Please enter a valid phone number
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                   <textarea
                     id="message"
                     name="message"
                     placeholder="Message"
                     //required
                   ></textarea>
-                  <div class="error-msg">Please enter a message</div>
+                  <div className="error-msg">Please enter a message</div>
                 </div>
 
                 <button type="submit">SENT</button>

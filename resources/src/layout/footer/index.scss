@@ -1,2 +1,91 @@
 @import "../../styles/variables.scss";
 
+footer {
+  margin-top: 90pt;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-top {
+  height: 20px;
+  width: 100%;
+  background-color: red;
+}
+
+.footer-last {
+  background-color: $orange;
+  width: 100%;
+  height: 69pt;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-last p{
+  color: $white;
+  font-size: 12pt;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+
+.footer-middle {
+  background-color: $blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:end;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer-middle-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-middle-address p {
+  color: $white;
+  font-size: 12pt;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  width: 402pt;
+}
+
+.footer-middle-address img {
+  width: 128pt;
+  height: 27pt;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer-middle-address-social
+
+
+
+.oval {
+  top: 0;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  background-color: #ff5f5f;
+}
+
+.square {
+  top: 0;
+  left: 33.33%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+  background-color: #00bfff;
+}
+
+.oval:last-child {
+  top: 0;
+  left: 66.66%;
+  border-radius: 50% 50% 0 0;
+  background-color: #ffdc2e;
+}
