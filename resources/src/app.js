@@ -15,7 +15,6 @@ import Banner from "./layout/banner/banner.component";
 import Memories from "./components/memories/memories.component";
 import Music from "./components/music/music.component";
 import JoinUs from "./components/join-us/joinus.component";
-import Footer from "./layout/footer/footer.componet";
 
 // configuracion de la aplicación
 const rootElement = document.querySelector("#root");
@@ -52,7 +51,7 @@ root.render(
       <JoinUs />
       
       {/* Contenido para Footer */}
-      <Footer />
+      {/* <Footer /> */}
 
 
     </div>
