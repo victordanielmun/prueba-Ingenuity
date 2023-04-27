@@ -2194,9 +2194,91 @@ function Events() {
 /*!******************************************************************!*\
   !*** ./resources/src/components/the-crew/the-crew.component.jsx ***!
   \******************************************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\resources\\src\\components\\the-crew\\the-crew.component.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (38:6)\n\n\u001b[0m \u001b[90m 36 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m      \u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m     \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 38 |\u001b[39m \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m }\u001b[0m\n    at instantiate (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:653:32)\n    at constructor (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:947:12)\n    at JSXParserMixin.raise (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:3271:19)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:6982:18)\n    at JSXParserMixin.jsxParseElement (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:6991:17)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:7003:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10880:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10863:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10839:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10677:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10682:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10659:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10620:21)\n    at C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10590:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12265:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10590:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:11498:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:11149:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:7008:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10880:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10863:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10839:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10677:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10682:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10659:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10620:21)\n    at JSXParserMixin.parseExpressionBase (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10574:23)\n    at C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10570:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12260:16)\n    at JSXParserMixin.parseExpression (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:10570:17)\n    at JSXParserMixin.parseReturnStatement (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12943:28)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12590:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12557:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12537:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13129:61)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13122:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13110:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:11932:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:11918:10)\n    at C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13265:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12242:14)\n    at JSXParserMixin.parseFunction (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13264:10)\n    at JSXParserMixin.parseExportDefaultExpression (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13749:19)\n    at JSXParserMixin.parseExport (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13676:25)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12669:27)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12557:17)\n    at JSXParserMixin.parseModuleItem (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12534:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13129:36)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:13122:10)\n    at JSXParserMixin.parseProgram (C:\\Users\\User\\Desktop\\Prueba Tecnica\\prueba-victor\\node_modules\\@babel\\parser\\lib\\index.js:12445:10)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ TheCrew)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./resources/src/components/the-crew/index.scss");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function TheCrew() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+    className: "the-crew-background",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "the-crew",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "the-crew-content",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "the-crew-content-text",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
+            className: "title",
+            children: ["The ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              children: "crew."
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "text-content",
+            children: "The Catholic community at Trinity participates in the sacramental life of the church and serves actively as a partner in community building and interreligious dialogue to promote understanding and tolerance on campus. Roman Catholic Campus Ministry is sponsored by the Archdiocese of Hartford Campus Ministry Office and Trinity College\u2019s Office of Spiritual and Religious Life. It brings a vitally important dimension to life at Trinity College."
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+            children: "LEARN MORE"
+          })]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "the-crew-content-img",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+          src: "/assets/thecrew/1.png",
+          alt: ""
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "the-crew-footer",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "the-crew-footer-social",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "",
+            alt: "icon1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-number",
+            children: "165"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-text",
+            children: "Happy freshman members"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "the-crew-footer-social",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "",
+            alt: "icon2"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-number",
+            children: "13"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-text",
+            children: "Wise Senior members"
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "the-crew-footer-social",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "",
+            alt: "icon3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-number",
+            children: "173"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            className: "the-crew-social-text",
+            children: "The whole crew"
+          })]
+        })]
+      })]
+    })
+  });
+}
 
 /***/ }),
 
@@ -2338,7 +2420,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 800px;\n  height: 600px;\n  position: fixed;\n  background-color: #e3e3e3;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-32%);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".events {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding-top: 60pt;\n  position: relative;\n  z-index: 1;\n  margin-bottom: 180pt;\n}\n\n.logo-events {\n  width: 62pt;\n  height: 33pt;\n}\n\n.menu-events {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 12pt;\n  margin: 0;\n  z-index: 1;\n}\n\n.menu-events img {\n  width: 298pt;\n  height: 383pt;\n  border-radius: 16pt;\n  filter: brightness(0.5);\n}\n\n.item-event-title {\n  position: absolute;\n  top: 0;\n  width: 260pt;\n  height: 97pt;\n  margin: 0 18pt;\n}\n\n.event-menu-items-item p {\n  margin-top: 171pt;\n  font-size: 33pt;\n  font-family: \"Poppins\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #ffffff;\n}\n\n.title {\n  width: 241pt;\n  height: 63pt;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 45pt;\n}\n\n.title p {\n  font-size: 45pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  text-align: center;\n  font-weight: bold;\n  color: #003473;\n}\n\n.button-more-events {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.events span {\n  font-size: 17pt;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  text-align: left;\n}\n\n.background-image {\n  width: 1000px;\n  height: 700px;\n  position: absolute;\n  background-color: #FAFAFA;\n  z-index: -1;\n  border-top: 10px;\n  border-bottom: 10px;\n  border-right: 10px;\n  border-radius: 50% 0 0 50%;\n  right: 0;\n  top: 50%;\n  transform: translateY(-40%);\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/the-crew/index.scss":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/the-crew/index.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 8pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: -3px 2px 9px -2px rgba(0, 0, 0, 0.75);\n  margin-top: 120pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50514,6 +50620,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/events/index.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/src/components/the-crew/index.scss":
+/*!******************************************************!*\
+  !*** ./resources/src/components/the-crew/index.scss ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_node_modules_sass_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_3_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./index.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[3]!./resources/src/components/the-crew/index.scss");
 
             
 

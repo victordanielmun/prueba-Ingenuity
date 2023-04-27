@@ -8,6 +8,7 @@ align-items: center;
 padding-top: 60pt; 
 position: relative;
 z-index: 1;
+margin-bottom: 180pt;
 }
 
 .logo-events {
@@ -90,9 +91,9 @@ z-index: 1;
 }
 
 .background-image {
-    width: 800px;
-    height: 600px;
-    position: fixed;
+    width: 1000px;
+    height: 700px;
+    position: absolute;
     background-color: $gray-white;
     z-index: -1;
     border-top: 10px;
@@ -101,7 +102,7 @@ z-index: 1;
     border-radius: 50% 0 0 50%;
     right: 0;
     top: 50%;
-    transform: translateY(-32%);
+    transform: translateY(-40%);
     
     
 }
