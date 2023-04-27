@@ -1,0 +1,78 @@
+@import "../../styles/variables.scss";
+
+.background-joinUs {
+    background-color: $gray-white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinUs {
+    background-color: #F5F5F5;
+    border-radius: 30pt;
+    width: 1230pt;
+    height: 533pt;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
+    margin-top: 60pt;
+    padding: 32pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.joinUs-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joinUs-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40pt;
+    width: 65%;
+}
+
+.joinUs-content-img {
+    width: 46%;
+    height: 390pt;
+}
+
+.joinUs-content-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    padding: 2pt;
+    border-radius: 20pt;
+    border: 0px;
+}
+
+.text-content {
+    font-size: 13pt;
+    color: #666666;
+}
+
+
+.title {
+    display: inline;
+    color: $blue;
+    font-size: 80pt;
+    font-family: $redhat;
+}
+
+.title span {
+    display: inline;
+    color: $orange;
+    font-size: 80pt;
+    font-family: $redhat;
+    font-weight: bold;
+}
+
+.text-content {
+    font-size: 13pt;
+    color: #666666;
+}

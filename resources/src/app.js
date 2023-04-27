@@ -14,6 +14,7 @@ import Navbar from "./layout/nav/nav.component";
 import Banner from "./layout/banner/banner.component";
 import Memories from "./components/memories/memories.component";
 import Music from "./components/music/music.component";
+import JoinUs from "./components/join-us/joinus.component";
 
 // configuracion de la aplicación
 const rootElement = document.querySelector("#root");
@@ -45,6 +46,9 @@ root.render(
 
       {/* Contenido para music */}
       <Music />
+
+      {/* Contenido para music */}
+      <JoinUs />
 
       <br />
       <br />

@@ -3,8 +3,8 @@
 .music {
   height: fit-content;
   width: 100%;
-  padding: 100pt 0;
-  padding-top: 200pt;
+  padding: 80pt 0;
+
   position: relative;
   z-index: -1;
   height: 450pt;
@@ -17,9 +17,20 @@
 }
 
 .music-man {
-
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 829pt;
+  height: 552pt;
 }
 
 .music-list {
-    
+  position: absolute;
+  top:10%;
+  left: 60%;
+  z-index: 1;
+  width: 280pt;
+  height: 361pt;
 }
