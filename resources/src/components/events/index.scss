@@ -23,6 +23,7 @@ z-index: 1;
     align-items: center;
     gap: 12pt;
     margin: 0;
+    z-index: 1;
 }
 
 .menu-events img {
@@ -89,10 +90,18 @@ z-index: 1;
 }
 
 .background-image {
-    position: absolute;
-    top:0;
-    width: 400pt;
-    height: 300pt;
+    width: 800px;
+    height: 600px;
+    position: fixed;
     background-color: $gray-white;
+    z-index: -1;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    border-radius: 50% 0 0 50%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-32%);
+    
     
 }

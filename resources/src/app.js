@@ -37,7 +37,7 @@ root.render(
 
 
       {/* Contenido para TheCrow */}
-      {/* <TheCrow /> */}
+      <TheCrow />
 
 
 
