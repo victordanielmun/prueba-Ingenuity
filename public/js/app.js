@@ -2233,19 +2233,71 @@ function JoinUs() {
             className: "the-crew-content-text",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
               className: "title",
-              children: ["The ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-                children: "crew."
+              children: ["Join ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                children: "Us."
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
               className: "text-content",
-              children: "The Catholic community at Trinity participates in the sacramental life of the church and serves actively as a partner in community building and interreligious dialogue to promote understanding and tolerance on campus."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {})]
+              children: "In the sea of life, there is nothing to fear if you have God as your captain. Join our crew!"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("form", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                "class": "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+                  type: "text",
+                  id: "full-name",
+                  name: "full-name",
+                  placeholder: "Full Name"
+                  // required
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  "class": "error-msg",
+                  children: "Please enter your full name"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                "class": "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+                  type: "email",
+                  id: "email",
+                  name: "email",
+                  placeholder: "Email Address"
+                  //required
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  "class": "error-msg",
+                  children: "Please enter a valid email"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                "class": "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
+                  type: "tel",
+                  id: "phone",
+                  name: "phone",
+                  placeholder: "Cell Phone Number"
+                  //required
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  "class": "error-msg",
+                  children: "Please enter a valid phone number"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                "class": "form-group",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("textarea", {
+                  id: "message",
+                  name: "message",
+                  placeholder: "Message"
+                  //required
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  "class": "error-msg",
+                  children: "Please enter a message"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+                type: "submit",
+                children: "SENT"
+              })]
+            })]
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
           className: "joinUs-content-img",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "/assets/thecrew/1.png",
-            alt: ""
+            src: "/assets/joinus/joinus.png",
+            alt: "joinus"
           })
         })]
       })
@@ -2808,7 +2860,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".background-joinUs {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.joinUs {\n  background-color: #F5F5F5;\n  border-radius: 30pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);\n  margin-top: 60pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  position: relative;\n}\n\n.joinUs-body {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.joinUs-content {\n  display: flex;\n  flex-direction: column;\n  padding: 40pt;\n  width: 65%;\n}\n\n.joinUs-content-img {\n  width: 46%;\n  height: 390pt;\n}\n\n.joinUs-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: fill;\n     object-fit: fill;\n  padding: 2pt;\n  border-radius: 20pt;\n  border: 0px;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".background-joinUs {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.joinUs {\n  background-color: #f5f5f5;\n  border-radius: 30pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);\n  margin-top: 60pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  position: relative;\n}\n\n.joinUs-body {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.joinUs-content {\n  display: flex;\n  flex-direction: column;\n  padding: 40pt;\n  width: 65%;\n}\n\n.joinUs-content-img {\n  width: 56%;\n  height: 456pt;\n  margin-left: 20pt;\n}\n\n.joinUs-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: fill;\n     object-fit: fill;\n  padding: 2pt;\n  border-radius: 20pt;\n  border: 0px;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  font-size: 18pt;\n  color: #666666;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nform {\n  width: 100%;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.form-group {\n  position: relative;\n  margin-bottom: 20px;\n}\n\nlabel {\n  display: block;\n  margin-bottom: 5px;\n}\n\ninput,\ntextarea {\n  display: block;\n  width: 100%;\n  padding: 10px;\n  border: 1px solid #ccc;\n  border-radius: 20px;\n  font-size: 16px;\n  font-family: \"Helvetica\", sans-serif;\n  line-height: 1.4;\n  outline: none;\n}\n\ntextarea {\n  height: 87pt;\n}\n\ninput:focus,\ntextarea:focus {\n  border-color: #555;\n}\n\nbutton[type=submit] {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n  cursor: pointer;\n}\n\nbutton[type=submit]:hover {\n  background-color: #5ad3df;\n}\n\n.error-msg {\n  position: absolute;\n  bottom: -20px;\n  left: 0;\n  display: none;\n  font-size: 14px;\n  color: red;\n}\n\ninput:invalid,\ntextarea:invalid {\n  border-color: red;\n}\n\ninput:invalid + .error-msg,\ntextarea:invalid + .error-msg {\n  display: block;\n}\n\ninput:valid,\ntextarea:valid {\n  border-color: #707070;\n}\n\ninput:valid + .error-msg,\ntextarea:valid + .error-msg {\n  display: none;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2880,7 +2932,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 30pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);\n  margin-top: 60pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  position: relative;\n}\n\n.the-crew-border {\n  border-left-color: #FF7E54;\n  border-left-width: 3px;\n  border-left-style: solid;\n  height: 90%;\n  position: absolute;\n  left: -2px;\n}\n\n.the-crew-body {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  padding: 40pt;\n  width: 65%;\n}\n\n.the-crew-body-btn-read-more {\n  margin: 20pt 0;\n  padding: 8pt 33pt;\n  border-radius: 37pt;\n  background-color: #EF7A53;\n  border: 0;\n  color: white;\n  font-size: 13px;\n}\n\n.the-crew-content-img {\n  width: 46%;\n  height: 390pt;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: fill;\n     object-fit: fill;\n  padding: 2pt;\n  border-radius: 20pt;\n  border: 0px;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}\n\n.the-crew-footer-content {\n  position: absolute;\n  bottom: -78px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n}\n\n.the-crew-footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: white;\n  box-shadow: 0 6px 10px -5px #bfbebe;\n  border-radius: 10pt;\n  padding: 20pt 41pt;\n  gap: 44pt;\n  flex-wrap: wrap;\n  width: 50%;\n}\n\n.center-icons {\n  display: flex;\n  justify-content: center;\n}\n\n.border-the-crew-icon {\n  height: 92pt;\n  width: 1px;\n  background: #235286;\n}\n\n.the-crew-social-number {\n  text-align: center;\n  font-size: 63px;\n  color: #FF7E54;\n  font-weight: bold;\n}\n\n.the-crew-social-text {\n  color: #235286;\n  font-size: 20px;\n  font-weight: 300;\n  text-align: center;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 120pt;\n}\n\n.the-crew {\n  background-color: #f5f5f5;\n  border-radius: 30pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);\n  margin-top: 60pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  position: relative;\n}\n\n.the-crew-border {\n  border-left-color: #ff7e54;\n  border-left-width: 3px;\n  border-left-style: solid;\n  height: 90%;\n  position: absolute;\n  left: -2px;\n}\n\n.the-crew-body {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  padding: 40pt;\n  width: 65%;\n}\n\n.the-crew-body-btn-read-more {\n  margin: 20pt 0;\n  padding: 8pt 33pt;\n  border-radius: 37pt;\n  background-color: #ef7a53;\n  border: 0;\n  color: white;\n  font-size: 13px;\n}\n\n.the-crew-content-img {\n  width: 56%;\n  height: 456pt;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: fill;\n     object-fit: fill;\n  padding: 2pt;\n  border-radius: 20pt;\n  border: 0px;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  font-size: 13pt;\n  color: #666666;\n}\n\n.the-crew-footer-content {\n  position: absolute;\n  bottom: -100pt;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n}\n\n.the-crew-footer {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: white;\n  box-shadow: 0 6px 10px -5px #bfbebe;\n  border-radius: 10pt;\n  padding: 20pt 41pt;\n  gap: 44pt;\n  flex-wrap: wrap;\n  width: 50%;\n}\n\n.center-icons {\n  display: flex;\n  justify-content: center;\n}\n\n.border-the-crew-icon {\n  height: 92pt;\n  width: 1px;\n  background: #235286;\n}\n\n.the-crew-social-number {\n  text-align: center;\n  font-size: 63px;\n  color: #ff7e54;\n  font-weight: bold;\n}\n\n.the-crew-social-text {\n  color: #235286;\n  font-size: 20px;\n  font-weight: 300;\n  text-align: center;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2904,7 +2956,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".whats-new {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  background-color: #FAFAFA;\n  padding: 80pt 0;\n  padding-top: 140pt;\n}\n\n.whats-new-body {\n  width: 100%;\n  border-radius: 14%;\n  background: linear-gradient(#003473, #08BDA8);\n  height: 94%;\n  min-height: 400pt;\n  padding: 55pt 0;\n}\n\n.center {\n  display: flex;\n  justify-content: center;\n}\n\n.logo {\n  text-align: center;\n}\n\n.logo-title {\n  margin-top: 6pt;\n}\n\n.logo-title-whats {\n  font-size: 60px;\n  color: #ff7e54;\n  font-weight: 500;\n}\n\n.logo-title-new {\n  font-size: 60px;\n  color: #ffffff;\n  font-weight: bold;\n  margin-left: 10pt;\n}\n\n.logo span {\n  color: #FAFAFA;\n  font-weight: 100;\n}\n\n.whats-new-link {\n  margin-top: 10pt;\n  margin-bottom: 36pt;\n  display: flex;\n  justify-content: flex-end;\n  margin-right: 10%;\n}\n\n.whats-new-link a {\n  color: #FAFAFA;\n  text-decoration: none;\n  font-size: 10pt;\n  font-weight: 100;\n}\n\n.blogs {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.blogs-item {\n  height: 350pt;\n  width: 250pt;\n  border-radius: 20pt;\n  position: relative;\n}\n\n.blog-item-date {\n  width: 56pt;\n  background: #ff7e54;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 10pt;\n  display: grid;\n  text-align: center;\n  left: 14pt;\n  position: absolute;\n  top: 0;\n  border-radius: 5pt;\n}\n\n.blog-item-date strong {\n  font-size: 48px;\n  font-weight: bold;\n  color: #F7F7F7;\n}\n\n.blog-item-date span {\n  font-weight: 500;\n  color: #F7F7F7;\n}\n\n.blog-item-content {\n  height: 100%;\n  background: rgba(0, 0, 0, 0.3490196078);\n  border-radius: 20pt;\n}\n\n.blog-item-content-data {\n  position: absolute;\n  bottom: 24px;\n  padding: 16pt;\n  display: grid;\n}\n\n.blog-item-content-author {\n  color: #ffffff;\n}\n\n.blog-item-content-title {\n  color: #ffffff;\n  font-size: 35px;\n  font-weight: bold;\n}\n\n.blog-item-content-description {\n  color: #F1F5F8;\n  font-size: 14px;\n  margin: 5pt 0;\n  font-weight: 100;\n}\n\n.blog-item-content-button {\n  background: #5ad3df;\n  border: 0;\n  padding: 6pt 31pt;\n  border-radius: 15pt;\n  font-size: 10pt;\n  margin-top: 10pt;\n}\n\n.whats-new-button-blogs {\n  margin-top: 20pt;\n}\n\n.whats-new-button-blogs button {\n  color: white;\n  background: #ff7e54;\n  border: 0;\n  padding: 4pt 23pt;\n  border-radius: 10pt;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".whats-new {\n  height: -moz-fit-content;\n  height: fit-content;\n  width: 100%;\n  background-color: #FAFAFA;\n  padding: 80pt 0;\n  padding-top: 140pt;\n}\n\n.whats-new-body {\n  width: 100%;\n  border-radius: 14%;\n  background: linear-gradient(#003473, #08BDA8);\n  height: 94%;\n  min-height: 400pt;\n  padding: 55pt 0;\n}\n\n.center {\n  display: flex;\n  justify-content: center;\n}\n\n.logo {\n  text-align: center;\n}\n\n.logo-title {\n  margin-top: 6pt;\n}\n\n.logo-title-whats {\n  font-size: 60px;\n  color: #ff7e54;\n  font-weight: 500;\n}\n\n.logo-title-new {\n  font-size: 60px;\n  color: #ffffff;\n  font-weight: bold;\n  margin-left: 10pt;\n}\n\n.logo span {\n  color: #FAFAFA;\n  font-weight: 100;\n}\n\n.whats-new-link {\n  margin-top: 10pt;\n  margin-bottom: 36pt;\n  display: flex;\n  justify-content: flex-end;\n  margin-right: 10%;\n}\n\n.whats-new-link a {\n  color: #FAFAFA;\n  text-decoration: none;\n  font-size: 10pt;\n  font-weight: 100;\n}\n\n.blogs {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 20pt;\n}\n\n.blogs-item {\n  height: 350pt;\n  width: 250pt;\n  border-radius: 20pt;\n  position: relative;\n}\n\n.blog-item-date {\n  width: 56pt;\n  background: #ff7e54;\n  height: -moz-fit-content;\n  height: fit-content;\n  padding: 10pt;\n  display: grid;\n  text-align: center;\n  left: 14pt;\n  position: absolute;\n  top: 0;\n  border-radius: 5pt;\n}\n\n.blog-item-date strong {\n  font-size: 48px;\n  font-weight: bold;\n  color: #F7F7F7;\n}\n\n.blog-item-date span {\n  font-weight: 500;\n  color: #F7F7F7;\n}\n\n.blog-item-content {\n  height: 100%;\n  background: rgba(0, 0, 0, 0.3490196078);\n  border-radius: 20pt;\n}\n\n.blog-item-content-data {\n  position: absolute;\n  bottom: 24px;\n  padding: 16pt;\n  display: grid;\n}\n\n.blog-item-content-author {\n  color: #ffffff;\n}\n\n.blog-item-content-title {\n  color: #ffffff;\n  font-size: 35px;\n  font-weight: bold;\n}\n\n.blog-item-content-description {\n  color: #F1F5F8;\n  font-size: 14px;\n  margin: 5pt 0;\n  font-weight: 100;\n}\n\n.blog-item-content-button {\n  background: #5ad3df;\n  border: 0;\n  padding: 6pt 31pt;\n  border-radius: 15pt;\n  font-size: 10pt;\n  margin-top: 10pt;\n}\n\n.whats-new-button-blogs {\n  margin-top: 20pt;\n}\n\n.whats-new-button-blogs button {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

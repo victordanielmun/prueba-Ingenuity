@@ -8,16 +8,71 @@ export default function JoinUs() {
       <div className="joinUs">
         <div className="joinUs-body">
           <div className="joinUs-content">
-          <div className='the-crew-content-text'>
-              <p className='title'>The <span>crew.</span></p>
-              <p className='text-content'>
-                The Catholic community at Trinity participates in the sacramental life of the church and serves actively as a partner in community building and interreligious dialogue to promote understanding and tolerance on campus.
+            <div className="the-crew-content-text">
+              <p className="title">
+                Join <span>Us.</span>
+              </p>
+              <p className="text-content">
+                In the sea of life, there is nothing to fear if you have God as
+                your captain. Join our crew!
               </p>
               <br />
-              </div>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    placeholder="Full Name"
+                    // required
+                  />
+                  <div class="error-msg">
+                  Please enter your full name
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    //required
+                  />
+                  <div class="error-msg">
+                  Please enter a valid email
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Cell Phone Number"
+                    //required
+                  />
+                  <div class="error-msg">
+                  Please enter a valid phone number
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    //required
+                  ></textarea>
+                  <div class="error-msg">Please enter a message</div>
+                </div>
+
+                <button type="submit">SENT</button>
+              </form>
+            </div>
           </div>
           <div className="joinUs-content-img">
-            <img src="/assets/thecrew/1.png" alt="" />
+            <img src="/assets/joinus/joinus.png" alt="joinus" />
           </div>
         </div>
       </div>

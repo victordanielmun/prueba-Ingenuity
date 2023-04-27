@@ -1,78 +1,168 @@
 @import "../../styles/variables.scss";
 
 .background-joinUs {
-    background-color: $gray-white;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: $gray-white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .joinUs {
-    background-color: #F5F5F5;
-    border-radius: 30pt;
-    width: 1230pt;
-    height: 533pt;
-    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
-    margin-top: 60pt;
-    padding: 32pt;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+  background-color: #f5f5f5;
+  border-radius: 30pt;
+  width: 1230pt;
+  height: 533pt;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
+  margin-top: 60pt;
+  padding: 32pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
-
 .joinUs-body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .joinUs-content {
-    display: flex;
-    flex-direction: column;
-    padding: 40pt;
-    width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 40pt;
+  width: 65%;
 }
 
 .joinUs-content-img {
-    width: 46%;
-    height: 390pt;
+  width: 56%;
+  height: 456pt;
+  margin-left: 20pt;
 }
 
 .joinUs-content-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    padding: 2pt;
-    border-radius: 20pt;
-    border: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  padding: 2pt;
+  border-radius: 20pt;
+  border: 0px;
 }
 
 .text-content {
-    font-size: 13pt;
-    color: #666666;
+  font-size: 13pt;
+  color: #666666;
 }
 
-
 .title {
-    display: inline;
-    color: $blue;
-    font-size: 80pt;
-    font-family: $redhat;
+  display: inline;
+  color: $blue;
+  font-size: 80pt;
+  font-family: $redhat;
 }
 
 .title span {
-    display: inline;
-    color: $orange;
-    font-size: 80pt;
-    font-family: $redhat;
-    font-weight: bold;
+  display: inline;
+  color: $orange;
+  font-size: 80pt;
+  font-family: $redhat;
+  font-weight: bold;
 }
 
 .text-content {
-    font-size: 13pt;
-    color: #666666;
+  font-size: 18pt;
+  color: #666666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+  outline: none;
+}
+
+textarea {
+  height: 87pt;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #555;
+}
+
+button[type="submit"] {
+  background-color: $orange;
+  border-radius: 16pt;
+  border: 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  white-space: nowrap;
+  width: 157pt;
+  height: 30pt;
+  padding: 8pt auto;
+  margin: 27pt;
+  color: $white;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: $blue-marine;
+}
+
+.error-msg {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  display: none;
+  font-size: 14px;
+  color: red;
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:invalid + .error-msg,
+textarea:invalid + .error-msg {
+  display: block;
+}
+
+input:valid,
+textarea:valid {
+  border-color: #707070;
+}
+
+input:valid + .error-msg,
+textarea:valid + .error-msg {
+  display: none;
 }

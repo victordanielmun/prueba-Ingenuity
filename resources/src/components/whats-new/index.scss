@@ -148,9 +148,16 @@
 }
 
 .whats-new-button-blogs button {
-    color: white;
-    background: $orange;
+    background-color: $orange;
+    border-radius: 16pt;
     border: 0;
-    padding: 4pt 23pt;
-    border-radius: 10pt;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    white-space: nowrap;
+    width: 157pt;
+    height: 30pt;
+    padding: 8pt auto;
+    margin: 27pt;
+    color: $white;
 }

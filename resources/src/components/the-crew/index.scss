@@ -1,137 +1,138 @@
 @import "../../styles/variables.scss";
 
 .the-crew-background {
-    background-color: $gray-white;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: $gray-white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120pt;
 }
 
 .the-crew {
-    background-color: #F5F5F5;
-    border-radius: 30pt;
-    width: 1230pt;
-    height: 533pt;
-    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
-    margin-top: 60pt;
-    padding: 32pt;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+  background-color: #f5f5f5;
+  border-radius: 30pt;
+  width: 1230pt;
+  height: 533pt;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.75);
+  margin-top: 60pt;
+  padding: 32pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .the-crew-border {
-    border-left-color: #FF7E54;
-    border-left-width: 3px;
-    border-left-style: solid;
-    height: 90%;
-    position: absolute;
-    left: -2px;
+  border-left-color: #ff7e54;
+  border-left-width: 3px;
+  border-left-style: solid;
+  height: 90%;
+  position: absolute;
+  left: -2px;
 }
 
 .the-crew-body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .the-crew-content {
-    display: flex;
-    flex-direction: column;
-    padding: 40pt;
-    width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 40pt;
+  width: 65%;
 }
 
 .the-crew-body-btn-read-more {
-    margin: 20pt 0;
-    padding: 8pt 33pt;
-    border-radius: 37pt;
-    background-color: #EF7A53;
-    border: 0;
-    color: white;
-    font-size: 13px;
+  margin: 20pt 0;
+  padding: 8pt 33pt;
+  border-radius: 37pt;
+  background-color: #ef7a53;
+  border: 0;
+  color: white;
+  font-size: 13px;
 }
 
 .the-crew-content-img {
-    width: 46%;
-    height: 390pt;
+  width: 56%;
+  height: 456pt;
 }
 
 .the-crew-content-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    padding: 2pt;
-    border-radius: 20pt;
-    border: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  padding: 2pt;
+  border-radius: 20pt;
+  border: 0px;
 }
 
 .title {
-    display: inline;
-    color: $blue;
-    font-size: 80pt;
-    font-family: $redhat;
+  display: inline;
+  color: $blue;
+  font-size: 80pt;
+  font-family: $redhat;
 }
 
 .title span {
-    display: inline;
-    color: $orange;
-    font-size: 80pt;
-    font-family: $redhat;
-    font-weight: bold;
+  display: inline;
+  color: $orange;
+  font-size: 80pt;
+  font-family: $redhat;
+  font-weight: bold;
 }
 
 .text-content {
-    font-size: 13pt;
-    color: #666666;
+  font-size: 13pt;
+  color: #666666;
 }
 
 .the-crew-footer-content {
-    position: absolute;
-    bottom: -78px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  position: absolute;
+  bottom: -100pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .the-crew-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    box-shadow: 0 6px 10px -5px #bfbebe;
-    border-radius: 10pt;
-    padding: 20pt 41pt;
-    gap: 44pt;
-    flex-wrap: wrap;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 6px 10px -5px #bfbebe;
+  border-radius: 10pt;
+  padding: 20pt 41pt;
+  gap: 44pt;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 .center-icons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .border-the-crew-icon {
-    height: 92pt;
-    width: 1px;
-    background: #235286;
+  height: 92pt;
+  width: 1px;
+  background: #235286;
 }
 
 .the-crew-social-number {
-    text-align: center;
-    font-size: 63px;
-    color: #FF7E54;
-    font-weight: bold;
+  text-align: center;
+  font-size: 63px;
+  color: #ff7e54;
+  font-weight: bold;
 }
 
 .the-crew-social-text {
-    color: #235286;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
+  color: #235286;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
 }
