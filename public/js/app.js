@@ -2242,7 +2242,7 @@ function TheCrew() {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "the-crew-footer-social",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "../../../../public/assets/thecrew/",
+            src: "/assets/thecrew/carafeliz.svg",
             alt: "icon1"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
             className: "the-crew-social-number",
@@ -2254,7 +2254,7 @@ function TheCrew() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "the-crew-footer-social",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "",
+            src: "/assets/thecrew/grupo2.svg",
             alt: "icon2"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
             className: "the-crew-social-number",
@@ -2266,7 +2266,7 @@ function TheCrew() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
           className: "the-crew-footer-social",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
-            src: "",
+            src: "/assets/thecrew/grupo3.svg",
             alt: "icon3"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
             className: "the-crew-social-number",
@@ -2445,7 +2445,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 8pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: -3px 2px 9px -2px rgba(0, 0, 0, 0.75);\n  margin-top: 120pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  width: 419pt;\n  height: 190pt;\n  text-align: justify;\n  font-family: \"Poppins\", sans-serif;\n  color: #666666;\n}\n\n.the-crew-content-button {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.the-crew-content-img {\n  border-radius: 10px;\n  overflow: hidden;\n  height: 444pt;\n  width: 538pt;\n}\n\n.the-crew-footer {\n  position: absolute;\n  bottom: -20px;\n  left: 50%;\n  transform: translateX(-50%);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".the-crew-background {\n  background-color: #FAFAFA;\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.the-crew {\n  background-color: #F5F5F5;\n  border-radius: 8pt;\n  width: 1230pt;\n  height: 533pt;\n  box-shadow: -3px 2px 9px -2px rgba(0, 0, 0, 0.75);\n  margin-top: 120pt;\n  margin-bottom: 120pt;\n  padding: 32pt;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.the-crew-content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  display: inline;\n  color: #003473;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n}\n\n.title span {\n  display: inline;\n  color: #ff7e54;\n  font-size: 80pt;\n  font-family: \"Red Hat Display\", sans-serif;\n  font-weight: bold;\n}\n\n.text-content {\n  width: 419pt;\n  height: 190pt;\n  text-align: justify;\n  font-family: \"Poppins\", sans-serif;\n  color: #666666;\n}\n\n.the-crew-content-button {\n  background-color: #ff7e54;\n  border-radius: 16pt;\n  border: 0;\n  font-family: \"Helvetica\", sans-serif;\n  font-weight: 600;\n  font-size: 12pt;\n  white-space: nowrap;\n  width: 157pt;\n  height: 30pt;\n  padding: 8pt auto;\n  margin: 27pt;\n  color: #ffffff;\n}\n\n.the-crew-content-img img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.the-crew-content-img {\n  border-radius: 10pt;\n  overflow: hidden;\n  height: 444pt;\n  width: 538pt;\n}\n\n.the-crew-footer {\n  position: absolute;\n  top: -20px;\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: #ffffff;\n  border-radius: 10pt;\n  width: 609pt;\n  height: 189pt;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

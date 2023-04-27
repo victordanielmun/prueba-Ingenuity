@@ -19,17 +19,17 @@ export default function TheCrew() {
         </div>
       <div className='the-crew-footer'>
         <div className='the-crew-footer-social'>
-        <img src='../../../../public/assets/thecrew/' alt='icon1'/>
+        <img src='/assets/thecrew/carafeliz.svg' alt='icon1'/>
         <p className='the-crew-social-number'>165</p>
         <p className='the-crew-social-text'>Happy freshman members</p>
         </div>
         <div className='the-crew-footer-social'>
-        <img src='' alt='icon2'/>
+        <img src='/assets/thecrew/grupo2.svg' alt='icon2'/>
         <p className='the-crew-social-number'>13</p>
         <p className='the-crew-social-text'>Wise Senior members</p>
         </div>
         <div className='the-crew-footer-social'>
-        <img src='' alt='icon3'/>
+        <img src='/assets/thecrew/grupo3.svg' alt='icon3'/>
         <p className='the-crew-social-number'>173</p>
         <p className='the-crew-social-text'>The whole crew</p>
         </div>
